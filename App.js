@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { CategoriesScreen } from './screens/CategoriesScreen';
-import { MealsList } from './screens/MealsList';
+import { MealsOverviewScreen } from './screens/MealsOverviewScreen';
 import { Ionicons } from '@expo/vector-icons';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
@@ -73,7 +73,7 @@ export default function App() {
                 headerShown: false,
               }}
             />
-            <Stack.Screen name="meals-list" component={MealsList} />
+            <Stack.Screen name="meals-list" component={MealsOverviewScreen} />
             <Stack.Screen name="MealDetail" component={MealDetailsScreen} />
           </Stack.Navigator>
         </NavigationContainer>
