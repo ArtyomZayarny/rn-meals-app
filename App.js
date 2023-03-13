@@ -10,7 +10,7 @@ import { MealsOverviewScreen } from './screens/MealsOverviewScreen';
 import { MealDetailsScreen } from './screens/MealDetailsScreen';
 import { FavoriteScreen } from './screens/FavoriteScreen';
 //import { FavoriteContextProvider } from './store/context/favorite-context';
-import { store } from './store/redux/store';
+import { store } from './redux/store';
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
